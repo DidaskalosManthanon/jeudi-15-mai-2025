@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprentissage Anglais</title>
+    <link rel="stylesheet" href="gemini-style.css">
+</head>
+<body>
+    <div class="vocab-container">
+        <h1>Mon Vocabulaire Anglais</h1>
+        <div class="word-card">
+            <div class="term-section">
+                <h2 id="english-word"></h2>
+                <p id="pronunciation" class="pronunciation-style"></p>
+            </div>
+            <div class="definition-section">
+                <p><strong>Français :</strong> <span id="french-translation"></span></p>
+                <p id="note" class="note-style"></p>
+            </div>
+            <div class="example-section">
+                <p><strong>Exemple (EN) :</strong> <span id="example-en"></span></p>
+                <p><strong>Traduction (FR) :</strong> <span id="example-fr"></span></p>
+            </div>
+        </div>
+        <div class="navigation">
+            <button id="prev-btn">Précédent</button>
+            <p id="progress"></p>
+            <button id="next-btn">Suivant</button>
+        </div>
+        <div class="controls">
+            <button id="toggle-translation-btn">Cacher/Montrer Traduction & Exemple FR</button>
+        </div>
+    </div>
+
+    <script src="gemini-script.js"></script>
+</body>
+</html>
